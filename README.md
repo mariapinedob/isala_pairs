@@ -11,7 +11,7 @@ If you want to run these scripts yourself, you will need to update the file path
 ### Step 1: Create folders for data, results and scripts (src)
 
 ``` bash
-{cd isala_pairs}
+cd isala_pairs
 mkdir data results src
 ```
 
