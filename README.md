@@ -115,7 +115,7 @@ results/
 
 -   `02_species_level`: **Scripts for assessing species‑level similarity between mother-daughter pairs**
 
-    -   This workflow includes (i) species‑level exploration of vaginal microbiome composition using tidytacos objects, (ii) permutation‑based analyses comparing metagenomic profiles from mothers and daughters in the Isala cohort and the cohort described by [France et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/36288274/), and (iii) performance of a generalized linear model to assess the association between the maternal dominance of L. crispatus and the dominance status of their daughters.
+    -   This workflow includes (i) species‑level exploration of vaginal microbiome composition using tidytacos objects, (ii) permutation‑based analyses comparing metagenomic profiles from mothers and daughters in the Isala cohort and the cohort described by [France et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/36288274/), and (iii) performance of a generalized linear model to assess the association between the maternal dominance of *L. crispatus* and the dominance status of their daughters.
 
 -   `03_strain_level`: **Scripts for investigating strain sharing within and between mother-daughter pairs**
 
@@ -124,4 +124,4 @@ results/
 
 -   `04_crispatus_phylogeny:` **Scripts for performing phylogenetic analysis of *Lactobacillus crispatus***
 
-    -   This workflow performs phylogenetic reconstruction of *Lactobacillus crispatus* by integrating isolate genomes, metagenomic data, and publicly available reference genomes from GTDB and the Isala cohort. The analysis is based on marker genes and carried out using [StrainPhlAn 4](http://segatalab.cibio.unitn.it/tools/strainphlan/) ([Blanco-Miguez et al., 2023](https://pubmed.ncbi.nlm.nih.gov/36823356/); [Truong et al. 2017](https://genome.cshlp.org/content/early/2017/02/06/gr216242116)), followed by visualization of the resulting phylogeny.
+    -   This workflow performs phylogenetic reconstruction of *L. crispatus* by integrating isolate genomes, metagenomic data, and publicly available reference genomes from GTDB and the Isala cohort. The analysis is based on marker genes and carried out using [StrainPhlAn 4](http://segatalab.cibio.unitn.it/tools/strainphlan/) ([Blanco-Miguez et al., 2023](https://pubmed.ncbi.nlm.nih.gov/36823356/); [Truong et al. 2017](https://genome.cshlp.org/content/early/2017/02/06/gr216242116)), followed by visualization of the resulting phylogeny.
