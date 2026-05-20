@@ -1,6 +1,6 @@
 # Isala mother-daughter pairs
 
-This repository contains scripts used to process and analyze 16S rRNA gene sequencing data, shotgun metagenomic sequencing data, and genome data derived from vaginal isolates from mother–daughter pairs in the Isala cohort. Isala is a pioneering citizen-science program that aims to better understand the female microbiome using advanced DNA technologies and enrolled over 3,345 women in its first phase. This analysis and its results are described in the paper "*Vaginal microbiome tracking finds species and strain sharing between mothers and their adult daughters*" (Pinedo-Bardales, Erreygers et al.).
+This repository contains scripts used to process and analyze 16S rRNA gene sequencing data, shotgun metagenomic sequencing data, and genome data derived from vaginal isolates from mother–daughter pairs in the Isala cohort. Isala is a pioneering citizen-science program that aims to better understand the female microbiome using advanced DNA technologies and enrolled over 3,345 women in its first phase. This analysis and its results are described in the paper "*Species and strain sharing in the vaginal microbiome of mothers and their adult daughters*" (Pinedo-Bardales, Erreygers et al.).
 
 The scripts are organized into four workflows, each corresponding to a different part of the analysis: quality control, species-level analysis, and strain‑level analysis.
 
