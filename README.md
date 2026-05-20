@@ -2,7 +2,7 @@
 
 This repository contains scripts used to process and analyze 16S rRNA gene sequencing data, shotgun metagenomic sequencing data, and genome data derived from vaginal isolates from mother–daughter pairs in the Isala cohort. Isala is a pioneering citizen-science program that aims to better understand the female microbiome using advanced DNA technologies and enrolled over 3,345 women in its first phase. This analysis and its results are described in the paper "*Species and strain sharing in the vaginal microbiome of mothers and their adult daughters*" (Pinedo-Bardales, Erreygers et al.).
 
-The scripts are organized into four workflows, each corresponding to a different part of the analysis: quality control, species-level analysis, and strain‑level analysis.
+The scripts are organized into four workflows, each corresponding to a different part of the analysis: quality control, species-level analysis, strain‑level analysis and the phylogenetic reconstruction of *Lactobacillus crispatus*.
 
 If you want to run these scripts yourself, you will need to update the file paths to match the location of your input files. In each script, these paths are listed at the top. In addition, you will need to install the dependencies specified in each script.
 
@@ -60,7 +60,7 @@ data/
     └── ...
 ```
 
-For **workflow 04**, which includes the phylogenetic reconstruction of *Lactobacillus crispatus*, genomes from the GTDB database must be retrieved from the release R226. A reference script for downloading these genomes is available [here](https://github.com/SWittouck/legen/tree/master/src/01_prepare_genomes). In addition, *L. crispatus* genomes from the Isala cohort should be included. These genomes can be downloaded from the European Nucleotide Archive (ENA) under BioProject PRJEB105013. Gene prediction should also be performed on all assembled genomes prior to downstream analyses. The following directory structure is suggested:
+For **workflow 04**, which includes the phylogenetic reconstruction of *L. crispatus*, genomes from the GTDB database must be retrieved from the release R226. A reference script for downloading these genomes is available [here](https://github.com/SWittouck/legen/tree/master/src/01_prepare_genomes). In addition, *L. crispatus* genomes from the Isala cohort should be included. These genomes can be downloaded from the European Nucleotide Archive (ENA) under BioProject PRJEB105013. Gene prediction should also be performed on all assembled genomes prior to downstream analyses. The following directory structure is suggested:
 
 ```         
 data/
